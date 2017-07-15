@@ -503,7 +503,7 @@ public class TvNewsFotageActivity extends AppCompatActivity {
         Intent in = getIntent();
         int id = in.getIntExtra("identity",0);
 
-        String[] TO = {"info.rapidpr@gmail.com ,sishakhor@gmail.com , 01730012300bdc.gmail.com ,ostitto.papa@gmail.com , bdm7.rapidpr@gmail.com"};
+        String[] TO = {"info.rapidpr@gmail.com ,sishakhor@gmail.com , 01730012300bd.gmail.com ,ostitto.papa@gmail.com , bdm7.rapidpr@gmail.com"};
         String[] CC = {""};
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
 

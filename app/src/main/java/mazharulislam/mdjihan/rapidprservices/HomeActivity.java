@@ -44,7 +44,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String data_head = "টিভি নিউজ ফুটেজ";
-                String data_body = "র\u200D্যাপিড পিআর বাংলাদেশের প্রথম ডিজিটাল মিডিয়া আর্কাইভ ।\n\n২০০০ সাল থেকে দেশের সবকটি টেলিভিশনে প্রচারিত সব ফুটেজ আর্কাইভে সংরক্ষণ করে আসছে ।\n" +
+                String data_body = "র\u200D্যাপিড পিআর বাংলাদেশের প্রথম ডিজিটাল মিডিয়া আর্কাইভ । ২০০০ সাল থেকে দেশের সবকটি টেলিভিশনে প্রচারিত সব ফুটেজ আর্কাইভে সংরক্ষণ করে আসছে । " +
                         "আপনার প্রয়োজনে Call, SMS অথবা Email করুন ।";
                 int identity = 1;
                 Intent tv = new Intent(HomeActivity.this, TvNewsFotageActivity.class);
@@ -129,7 +129,7 @@ public class HomeActivity extends AppCompatActivity {
         video.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String data_head = "ভিডিওগ্রাফি ফটোগ্রাফি ";
+                String data_head = "ভিডিওগ্রাফি, ফটোগ্রাফি";
                 String data_body = "র\u200D্যাপিড পিআর যে কোন কর্পোরেট প্রতিষ্ঠানের ভিডিওগ্রাফী ও ফটোগ্রাফী এবং ডকুমেন্টারী নির্মাণ করে থাকে ।"+"আপনার প্রয়োজনে Call, SMS অথবা Email করুন ।";
                 int identity = 7;
                 Intent tv = new Intent(HomeActivity.this, TvNewsFotageActivity.class);
@@ -172,9 +172,9 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String data_head = "র\u200D্যাপিড পিআর ";
-                String data_body = "২০০০ সালের ১ লা জানুয়ারী যাত্রা শুরু করে বাংলাদেশের প্রথম ডিজিটাল মিডিয়া আর্কাইভ র\u200D্যাপিড পিআর । \n" +
-                        "যে সব সার্ভিসের অন্তর্ভুক্ত তা হল \n" +
-                        " টিভি মিডিয়া কভারেজ\n" +
+                String data_body = "২০০০ সালের ১ লা জানুয়ারী যাত্রা শুরু করে বাংলাদেশের প্রথম ডিজিটাল মিডিয়া আর্কাইভ র\u200D্যাপিড পিআর । " +
+                        "যে সব সার্ভিসের অন্তর্ভুক্ত তা হল -\n\n" +
+                        "টিভি মিডিয়া কভারেজ\n" +
                         "মিডিয়া মনিটরিং \n" +
                         "ইভেন্ট ম্যানেজমেন্ট\n" +
                         "ইমেইল মার্কেটিং\n" +
@@ -203,9 +203,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String data_head = "সিভি";
-                String data_body = "র\u200D্যাপিড পিআর চায় দেশে দক্ষ জনশক্তি গড়ে উঠুক । এই অগ্রযাত্রায় আপনি যোগ দিতে চাইলে আজই আপনার সিভি পাঠান ।" +
-
-                        "আপনার প্রয়োজনে Email করুন ।";
+                String data_body = "র\u200D্যাপিড পিআর চায় দেশে দক্ষ জনশক্তি গড়ে উঠুক । এই অগ্রযাত্রায় আপনি যোগ দিতে চাইলে আজই আপনার সিভি পাঠান ।" +"আপনার প্রয়োজনে Email করুন ।";
                 int identity = 11;
                 Intent tv = new Intent(HomeActivity.this, TvNewsFotageActivity.class);
                 tv.putExtra("data_head", data_head);
@@ -219,7 +217,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String data_head = "কমপ্লেইন বক্স";
-                String data_body = "সামগ্রিক কাজ করতে যেয়ে আমাদের ছোটখাটো ভুল ভ্রান্তি থাকতেই পারে । একজন শুভাকাঙ্ক্ষী হিসেবে আমরা আপনার অভিযোগ বা সুচিন্তিত পরামর্শ কামনা করছি ।\n" +
+                String data_body = "সামগ্রিক কাজ করতে যেয়ে আমাদের ছোটখাটো ভুল ভ্রান্তি থাকতেই পারে । একজন শুভাকাঙ্ক্ষী হিসেবে আমরা আপনার অভিযোগ বা সুচিন্তিত পরামর্শ কামনা করছি । " +
                         "আপনার সুন্দর পরামর্শে আরো অধিক গতিময় হবে র\u200D্যাপিড পিআর।আপনার প্রয়োজনে  SMS অথবা Email করুন ।";
                 int identity = 12;
                 Intent tv = new Intent(HomeActivity.this, TvNewsFotageActivity.class);
