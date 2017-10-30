@@ -17,7 +17,6 @@ public class TvNewsFotageActivity extends AppCompatActivity {
     TextView head, body;
     ImageView call, sms, mail;
     Dialog mDialog;
-
     ImageView firstcall, secondcall, thirdcall;
 
     @Override
@@ -75,7 +74,6 @@ public class TvNewsFotageActivity extends AppCompatActivity {
     protected void dialcall() {
         Intent inten = getIntent();
         int id = inten.getIntExtra("identity", 0);
-
         pop();
 
 

@@ -118,10 +118,13 @@ public class SendTvfotejMessageActivity extends AppCompatActivity {
                 String head = header.getText().toString();
                 String body = bodyer.getText().toString();
 
+                Intent in = getIntent();
+                final int smsValue = in.getIntExtra("sms_value", 0);
 
-                String one = "01730012300";
+                if(smsValue==1){
+                String one = "01730012308";
                 String two = "01711425005";
-                String three = "01941131313";
+                String three = "01730012303";
                 Intent smsIntent = new Intent(Intent.ACTION_VIEW);
                 smsIntent.setType("vnd.android-dir/mms-sms");
                 smsIntent.putExtra("address", one + ";" + two + ";" + three);
@@ -132,7 +135,190 @@ public class SendTvfotejMessageActivity extends AppCompatActivity {
                 Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
                 finish();
 
+            }else if(smsValue==2){
 
+                    String one = "01730012307";
+                    String two = "01711425005";
+                    String three = "01709955694";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", one + ";" + two + ";" + three);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+
+                }
+
+                else if(smsValue==3){
+
+                    String one = "01730012307";
+                    String two = "01711425005";
+                    String three = "01730012303";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", one + ";" + two + ";" + three);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+
+                }
+
+                else if(smsValue==4){
+
+                    String one = "01730012307";
+                    String two = "01711425005";
+                    String three = "01709955694";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", one + ";" + two + ";" + three);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+
+                }
+
+                else if(smsValue==5){
+
+                    String one = "01730012307";
+                    String two = "01711425005";
+                    String three = "01709955694";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", one + ";" + two + ";" + three);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+
+                }
+
+                else if(smsValue==6){
+
+                    String one = "01730012307";
+                    String two = "01711425005";
+                    String three = "01709955694";
+                    String four = "01709955692";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", one + ";" + two + ";" + three+ ";" + four);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+
+                }
+
+                else if(smsValue==7){
+
+                    String two = "01711425005";
+                    String three = "01709955694";
+                    String four = "01709955692";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", two + ";" + three+ ";" + four);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+
+                }
+
+                else if(smsValue==8){
+                    /////////////////biman ticket/////////////
+
+                    String one = "01730012302";
+                    String two = "01711425005";
+                    String three = "01709955694";
+                    String four = "01730012304";
+                    String five = "01730012308";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", two + ";" + three+ ";" + four +";" + five);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+
+                }
+
+                else if(smsValue==9){
+////city tours///////////
+                    String two = "01711425005";
+                    String three = "01730012307";
+                    String four = "01709955692";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", two + ";" + three+ ";" + four);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+                }
+
+                else if(smsValue==10){
+
+                    String two = "01711425005";
+                    String three = "+88-01681131313";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", two + ";" + three);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+                }
+
+                else if(smsValue==11){
+////cv pathan///////////
+                    String two = "+88-01711425005";
+                    String three = "+88-01941131313";
+                    String four = "+88-01681131313";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", two + ";" + three+ ";" + four);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+                }
+
+                else if(smsValue==12){
+////cv pathan///////////
+                    String two = "+88-01711425005";
+                    String four = "+88-01681131313";
+                    Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+                    smsIntent.setType("vnd.android-dir/mms-sms");
+                    smsIntent.putExtra("address", two + ";" + four);
+                    smsIntent.putExtra("sms_body", ("Sending Date: " + date + "\n\n" + "Name: " + namedata + "\n\n" + "Mobile: " + mobildata + "\n\n" + "Email: " + emaildata + "\n\n" + "Subject: " + head + "\n\n" + "Body: " + body));
+                    startActivity(smsIntent);
+
+
+                    Toast.makeText(SendTvfotejMessageActivity.this, "আপনার বার্তার জন্য আপনাকে ধন্যবাদ ", Toast.LENGTH_LONG).show();
+                    finish();
+                }
 
                /* switch (smsValue) {
                     case 1:
